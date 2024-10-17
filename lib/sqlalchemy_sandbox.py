@@ -2,7 +2,7 @@
 
 # lib/sqlalchemy_sandbox.py
 
-from sqlalchemy import Column, Integer, String
+from sqlalchemy import Column, Integer, String, create_engine
 from sqlalchemy.ext.declarative import declarative_base
 
 Base = declarative_base()
